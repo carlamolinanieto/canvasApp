@@ -1,0 +1,67 @@
+/*@media only screen and (max-width: 474px) {
+}
+
+@media only screen and (min-width: 475px) and (max-width: 979px){
+}
+
+@media only screen and (min-width: 980px){*/
+    /*POSICIÓ BARRA EINES*/
+    .barra-lateral{
+        float: right;
+        height: auto;
+        margin-left: 2%;
+        width: 18%;
+    }
+
+    /*DONA ESTIL ALS BOTONS DESFER I REFER*/
+    .botons img{
+        height: 30px;
+        margin-top: 10%;
+        width: 30px;  
+}
+    
+    /*POSICIÓ COLORS*/
+    .colors{
+        margin-top: 10%;
+        min-width: 175px;
+        width: 73%;
+    }
+    
+    /*POSICIÓ GRUIX*/
+    .line-height{
+        margin-top: 25%;
+        width: 73%;
+    }
+
+    /*ESTIL RODONA SELECCIÓ DE COLOR*/
+    .set_color{
+        border-radius: 20px;
+        height: 30px;
+        width: 30px;
+        
+    }
+    .set_color:hover{
+        border: 2px solid black;
+    }
+    
+    /*ESTIL LINIES SELECCIÓ DE GRUIX*/
+    .set_line{
+        background-color: black;
+        border: 0;
+        border-radius: 20px;
+        margin-top: 12%;
+        width: 175px;
+
+    }
+    .set_line:hover{
+        border: 2px solid red;
+    }
+
+    /*ESTIL DEL CANVAS*/
+    #canvas{
+        border: 1px solid black;
+        float: left;
+        height: 100%;
+        position: absolute;
+        width: 80%;
+    }
