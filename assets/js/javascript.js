@@ -48,8 +48,8 @@ function pincelSize() {
 
 function start() {
     pincelSize()
-    canvas.width = window.innerWidth
-    canvas.height = window.innerHeight
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
 
     function press() {
         paintHistory.saveState(canvas)
